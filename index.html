@@ -4,36 +4,93 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
     <title>Meet</title>
   </head>
   <body>
     <header class="flex justify-center pt-12">
-      <img src="./src/assets/logo.svg" alt="meet logo">
+      <img src="./src/assets/logo.svg" alt="meet logo" />
     </header>
-    
-    <main class="w-full overflow-x-hidden flex justify-center">
-      <div class="grid grid-cols-2 mt-16 w-[calc(100%+58px)] shrink-0">
-        <img class="" src="./src/assets/desktop/image-hero-right.png" alt="">
 
-        <div class="w-[calc(100%-58px)] mx-auto px-8.75 mt-12 col-span-2 flex flex-col gap-6 font-main">
-          <h1 class="text-[40px] font-black text-center leading-[1.1] text-slate900">Group Chat <br> for Everyone</h1>
+    <main class="flex w-full flex-col items-center gap-16 overflow-x-hidden">
+      <div class="mt-16 grid w-[calc(100%+58px)] shrink-0 grid-cols-2">
+        <img class="" src="./src/assets/desktop/image-hero-right.png" alt="" />
 
-          <p class="font-medium text-center text-slate600">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+        <div
+          class="col-span-2 mx-auto mt-12 flex w-[calc(100%-58px)] flex-col gap-6 px-8.75 font-main"
+        >
+          <h1
+            class="text-center text-[40px] leading-[1.1] font-black text-slate900"
+          >
+            Group Chat <br />
+            for Everyone
+          </h1>
+
+          <p class="text-center font-medium text-slate600">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
 
           <div class="grid justify-center gap-4">
-            <button class="py-4 px-10 rounded-[29px] font-black text-white bg-cyan600">Download
+            <button
+              class="rounded-[29px] bg-cyan600 px-10 py-4 font-black text-white"
+            >
+              Download
               <span class="text-cyan300">v1.3</span>
             </button>
 
-            <button class="py-4 px-10 justify-self-center rounded-[29px] font-black text-white bg-purple600">What is it?</button>
+            <button
+              class="justify-self-center rounded-[29px] bg-purple600 px-10 py-4 font-black text-white"
+            >
+              What is it?
+            </button>
           </div>
         </div>
 
-        <img class="row-start-1" src="./src/assets/desktop/image-hero-left.png" alt="">
+        <img
+          class="row-start-1"
+          src="./src/assets/desktop/image-hero-left.png"
+          alt=""
+        />
+      </div>
+
+      <div class="flex flex-col items-center">
+        <div class="h-20 w-px bg-slate300"></div>
+
+        <div
+          class="flex h-14 w-14 items-center justify-center rounded-full border border-slate300 text-slate600"
+        >
+          <a href="">01</a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4 px-8.75">
+        <img
+          class="rounded-lg"
+          src="./src/assets/desktop/image-woman-in-videocall.jpg"
+          alt=""
+        />
+        <img
+          class="rounded-lg"
+          src="./src/assets/desktop/image-women-videochatting.jpg"
+          alt=""
+        />
+        <img
+          class="rounded-lg"
+          src="./src/assets/desktop/image-men-in-meeting.jpg"
+          alt=""
+        />
+        <img
+          class="rounded-lg"
+          src="./src/assets/desktop/image-man-texting.jpg"
+          alt=""
+        />
       </div>
     </main>
   </body>
