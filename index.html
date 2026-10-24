@@ -4,10 +4,35 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/style.css">
     <title>Meet</title>
   </head>
-  <body>
-    
+  <body class="min-h-screen">
+    <header class="flex flex-col items-center pt-12 overflow-x-hidden">
+      <a href="./">
+        <img src="./src/assets/logo.svg" alt="meet logo">
+      </a>
+
+      <div class="flex mt-16 ">
+        <img src="./src/assets/tablet/image-hero.png" alt="users pictures">
+      </div>
+
+      <div class="mt-12 flex flex-col items-center gap-6 px-8.75">
+        <h1 class="font-main text-[40px] leading-[1.1] text-slate900 font-black text-center">Group Chat<br>for Everyone</h1>
+
+        <p class="font-main text-slate600 font-medium text-center">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+
+        <div class="flex flex-col items-center gap-4">
+          <button class="py-4 px-10 bg-cyan600 font-black rounded-[29px] text-white" >Download
+            <span class="text-cyan300">v1.3</span>
+          </button>
+
+          <button class="py-4 px-10 bg-purple600 font-black rounded-[29px] text-white">What is it?</button>
+        </div>
+      </div>
+    </header>
   </body>
 </html>

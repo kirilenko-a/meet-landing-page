@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --color-cyan600: #4D96A9;
+  --color-cyan300: #8FE3F9;
+  --color-purple600: #855FB1;
+  --color-purple300: #D9B8FF;
+  --color-slate900: #28283D;
+  --color-slate600: #87879D;
+  --color-slate300: #D1D1DF;
+  --color-white: #FAFAFA;
+
+  --font-main: 'Red Hat Display', sans-serif;
+}
