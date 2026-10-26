@@ -19,18 +19,20 @@
     </header>
     <div class="flex flex-col gap-16">
       <main class="flex w-full flex-col items-center gap-16 overflow-x-hidden">
-        <div class="mt-16 grid w-[calc(100%+58px)] shrink-0 grid-cols-2">
+        <div
+          class="mt-16 grid w-[calc(100%+58px)] shrink-0 grid-cols-2 min-[1440px]:grid-cols-3"
+        >
           <img
-            class=""
+            class="min-[1440px]:col-start-3 md:justify-self-end"
             src="./src/assets/desktop/image-hero-right.png"
             alt=""
           />
 
           <div
-            class="col-span-2 mx-auto mt-12 flex w-[calc(100%-58px)] flex-col gap-6 px-8.75"
+            class="col-span-2 mx-auto mt-12 flex w-[calc(100%-58px)] flex-col gap-6 px-8.75 md:px-39.75 xl:col-start-2 xl:col-end-3 xl:row-start-1 xl:mt-0 xl:px-0"
           >
             <h1
-              class="text-center text-[40px] leading-[1.1] font-black text-slate900"
+              class="text-center text-[40px] leading-[1.1] font-black text-slate900 md:text-[48px]"
             >
               Group Chat <br />
               for Everyone
@@ -41,16 +43,18 @@
               and collaborate across any device.
             </p>
 
-            <div class="grid justify-center gap-4">
+            <div
+              class="grid justify-center gap-y-4 md:grid-cols-[max-content_max-content] md:gap-4"
+            >
               <button
-                class="rounded-[29px] bg-cyan600 px-10 py-4 font-black text-white"
+                class="cursor-pointer justify-self-center rounded-[29px] bg-cyan600 px-10 py-4 font-black text-white hover:bg-cyan-hover"
               >
                 Download
                 <span class="text-cyan300">v1.3</span>
               </button>
 
               <button
-                class="justify-self-center rounded-[29px] bg-purple600 px-10 py-4 font-black text-white"
+                class="cursor-pointer justify-self-center rounded-[29px] bg-purple600 px-10 py-4 font-black text-white hover:bg-purple-hover"
               >
                 What is it?
               </button>
@@ -75,7 +79,10 @@
             </div>
           </div>
 
-          <div id="features" class="grid grid-cols-2 gap-4 px-8.75">
+          <div
+            id="features"
+            class="grid grid-cols-2 gap-4 px-8.75 md:grid-cols-4 xl:px-38.25"
+          >
             <img
               class="rounded-lg"
               src="./src/assets/desktop/image-woman-in-videocall.jpg"
@@ -98,18 +105,20 @@
             />
           </div>
 
-          <div class="px-8 text-center">
+          <div class="px-8 text-center md:px-33 xl:px-112">
             <p
-              class="text-xs leading-[1.1] font-black tracking-[4px] text-cyan600 uppercase"
+              class="text-xs leading-[1.1] font-black tracking-[4px] text-cyan600 uppercase md:text-[14px] xl:text-[16px]"
             >
               Built for modern use
             </p>
 
-            <h2 class="mt-4 text-[32px] leading-[1.1] font-black text-slate900">
+            <h2
+              class="mt-4 text-[32px] leading-[1.1] font-black text-slate900 md:text-[36px] xl:text-[40px]"
+            >
               Smarter meetings, all in one place
             </h2>
 
-            <p class="mt-8 text-[18px] text-slate600">
+            <p class="mt-8 text-[16px] text-slate600 xl:text-[18px]">
               Send messages, share files, show your screen, and record your
               meetings — all in one workspace. Control who can join with
               invite-only team access, data encryption, and data export.
@@ -133,22 +142,24 @@
 
         <div
           id="experience"
-          class="bg-[url(/src/assets/mobile/image-footer.jpg)] bg-cover bg-no-repeat"
+          class="bg-[url(/src/assets/mobile/image-footer.jpg)] bg-cover bg-no-repeat md:bg-[url(/src/assets/tablet/image-footer.jpg)] md:bg-cover xl:bg-[url(/src/assets/desktop/image-footer.jpg)] xl:bg-cover"
         >
           <div
-            class="flex h-93.5 flex-col justify-between bg-cyan600/85 px-8 py-16 text-center"
+            class="flex h-93.5 flex-col justify-between bg-cyan600/85 px-8 py-16 text-center md:justify-around md:px-33 xl:flex-row xl:items-center xl:gap-23.75 xl:px-40 xl:text-left"
           >
-            <h2 class="text-[32px] leading-[1.1] font-black text-white">
+            <h2
+              class="text-[32px] leading-[1.1] font-black text-white md:text-[36px] xl:text-[40px]"
+            >
               Experience more together
             </h2>
 
-            <p class="text-[16px] font-medium text-white">
+            <p class="text-[16px] font-medium text-white xl:text-[18px]">
               Stay connected with reliable HD meetings and unlimited one-on-one
               and group video sessions.
             </p>
 
             <button
-              class="self-center rounded-[29px] bg-purple600 px-10 py-4 font-black text-white"
+              class="cursor-pointer self-center rounded-[29px] bg-purple600 px-10 py-4 font-black text-white hover:bg-purple-hover xl:shrink-0"
             >
               Download <span class="text-purple300">v1.3</span>
             </button>

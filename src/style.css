@@ -1,14 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-cyan600: #4D96A9;
-  --color-cyan300: #8FE3F9;
-  --color-purple600: #855FB1;
-  --color-purple300: #D9B8FF;
-  --color-slate900: #28283D;
-  --color-slate600: #87879D;
-  --color-slate300: #D1D1DF;
-  --color-white: #FAFAFA;
+  --color-cyan600: #4d96a9;
+  --color-cyan300: #8fe3f9;
+  --color-purple600: #855fb1;
+  --color-purple300: #d9b8ff;
+  --color-slate900: #28283d;
+  --color-slate600: #87879d;
+  --color-slate300: #d1d1df;
+  --color-white: #fafafa;
+  --color-cyan-hover: #71c0d4;
+  --color-purple-hover: #b18bdd;
 
-  --font-main: 'Red Hat Display', sans-serif;
+  --font-main: "Red Hat Display", sans-serif;
 }
